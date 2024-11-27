@@ -17,7 +17,7 @@ Start = tic;
 
 %% Inputs
 %--------------------------------------------------------------------------
-image = 'crack.bmp'; % image path/name
+image = 'images/crack.bmp'; % image path/name
 pixelScale = 1; % Unit scale of pixel in world units
 movWindowSize = 3; % Moving window size
 skelOrientBlockSize = 5; % Skeleton orientation block size
