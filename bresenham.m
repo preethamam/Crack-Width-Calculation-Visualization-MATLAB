@@ -3,7 +3,7 @@ function [x, y] = bresenham(x1,y1,x2,y2)
 %Matlab optmized version of Bresenham line algorithm. No loops.
 %8-connectivity
 %Format:
-%               [x y]=bham(x1,y1,x2,y2)
+%               [x y]=bresenham(x1,y1,x2,y2)
 %
 %Input:
 %               (x1,y1): Start position
@@ -13,7 +13,7 @@ function [x, y] = bresenham(x1,y1,x2,y2)
 %               x y: the line coordinates from (x1,y1) to (x2,y2)
 %
 %Usage example:
-%               [x y]=bham(1,1, 10,-5);
+%               [x y]=bresenham(1,1, 10,-5);
 %               plot(x,y,'or');
 
 

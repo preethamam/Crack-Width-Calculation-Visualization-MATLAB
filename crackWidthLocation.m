@@ -1,6 +1,20 @@
-function mycell = crackWidthLocation( x,y,angle,BW )
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+function mycell = crackWidthLocation(x, y, angle, BW)
+% CRACKWIDTHLOCATION Computes the crack width location along a specified angle.
+%
+% Inputs:
+%   x       - X-coordinate of the starting point (column index).
+%   y       - Y-coordinate of the starting point (row index).
+%   angle   - Angle (in degrees) along which to compute the crack width.
+%   BW      - Binary image representing the crack regions.
+%
+% Outputs:
+%   mycell  - Cell array containing:
+%             {1,1}: Array of x-coordinates along the line at the given angle.
+%             {2,1}: Array of y-coordinates along the line at the given angle.
+%
+% This function calculates the crack width by tracing a line in the specified
+% direction (angle) and identifying points within the crack region in the binary image.
+
     
 % Variables initialization
 lineLength = 1;
