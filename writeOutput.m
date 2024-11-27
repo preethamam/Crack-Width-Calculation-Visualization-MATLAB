@@ -1,0 +1,14 @@
+fileID = fopen(fileName2write,'w+');
+fprintf(fileID,'---------------------------------------------------------------------------\n');
+fprintf(fileID,'                            Crack statistics\n');
+fprintf(fileID,'---------------------------------------------------------------------------\n');
+fprintf(fileID,'Crack thickness         Value\n');
+fprintf(fileID,'---------------------------------\n');
+fprintf(fileID,'maximum:              %3.4f\n', maxCrackWidth);
+fprintf(fileID,'minimum:              %3.4f\n', minCrackWidth);
+fprintf(fileID,'average:              %3.4f\n', averageCrackWidth);
+fprintf(fileID,'standard deviation:   %3.4f\n', stdCrackWidth);
+fprintf(fileID,'RMS:                  %3.4f\n', RMSCrackWidth);
+fprintf(fileID,'---------------------------------\n');
+fprintf(fileID,'Crack length          %3.4f\n',crackLengthscaled);
+fclose(fileID);
