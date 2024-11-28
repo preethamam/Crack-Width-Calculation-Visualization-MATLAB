@@ -1,7 +1,7 @@
 function [bresenham_cell, row, col, idx, Orientations, Onormal90, Onormal270, OnrOrient, OncOrient, ...
     Onr90, Onc90, Onr270, Onc270, crackWidthscaled, crackLengthscaled, minCrackWidth, maxCrackWidth, ...
     averageCrackWidth, stdCrackWidth, RMSCrackWidth] = crackAnalysis(binaryCrack, binarySkeleton, skelOrientBlockSize, ...
-    pixelScale, movWindowSize)
+    pixelScale, movWindowSize, movWindowType)
 % CRACKANALYSIS Analyzes crack geometry in a binary image.
 %
 % Inputs:
@@ -93,7 +93,11 @@ function [bresenham_cell, row, col, idx, Orientations, Onormal90, Onormal270, On
     crackLengthscaled = numel(idx) * pixelScale; % Scale crack length to real-world units
 
     % Smooth crack width using a moving average
-    crackWidthscaled = movmean(crackWidthscaled, movWindowSize); % Apply moving window averaging
+    if strcmp(movWindowType,'mean')
+        crackWidthscaled = movmean(crackWidthscaled, movWindowSize); % Apply moving window averaging
+    else
+        crackWidthscaled = movmedian(crackWidthscaled, movWindowSize); % Apply moving window averaging
+    end
 
     % Calculate statistics of crack width
     minCrackWidth = min(crackWidthscaled); % Minimum crack width

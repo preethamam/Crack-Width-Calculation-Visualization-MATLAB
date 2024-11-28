@@ -20,6 +20,7 @@ Start = tic;
 image = 'images/crack.bmp'; % image path/name
 pixelScale = 1; % Unit scale of pixel in world units
 movWindowSize = 3; % Moving window size
+movWindowType = 'mean'; % 'mean': Moving mean | 'median': moving median
 skelOrientBlockSize = 5; % Skeleton orientation block size
 fileName2write = 'ZZZ_crackStatistics.txt'; % File to write output
 BWWF_crackWidthLine_background = 'white'; % Crack background % 'white' | 'black'
@@ -34,7 +35,7 @@ binarySkeleton = bwmorph(binaryCrack,'thin',Inf);
 [bresenham_cell, row, col, idx, Orientations, Onormal90, Onormal270, OnrOrient, OncOrient, ...
     Onr90, Onc90, Onr270, Onc270, crackWidthscaled, crackLengthscaled, minCrackWidth, maxCrackWidth, ...
     averageCrackWidth, stdCrackWidth, RMSCrackWidth] = crackAnalysis(binaryCrack, binarySkeleton, skelOrientBlockSize, ...
-                                                        pixelScale, movWindowSize);
+                                                        pixelScale, movWindowSize, movWindowType);
 %% Crack visualization
 crackVisualize
 
