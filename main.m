@@ -2,7 +2,7 @@
 %//%*                                                                      *%
 %//%*                        Crack Width Package					       *%
 %//%*                                                                      *%
-%//%*             Name: Preetham Aghalaya Manjunatha    		           *%
+%//%*             Name: Preetham Manjunatha    		                       *%
 %//%*             Github link: https://github.com/preethamam               *%
 %//%************************************************************************%
 
