@@ -3,15 +3,9 @@
 %//%*                        Crack Width Package					       *%
 %//%*                                                                      *%
 %//%*             Name: Preetham Aghalaya Manjunatha    		           *%
-%//%*             USC ID Number: 7356627445		                           *%
-%//%*             USC Email: aghalaya@usc.edu                              *%
-%//%*             Submission Date: --/--/2012                              *%
+%//%*             Github link: https://github.com/preethamam               *%
 %//%************************************************************************%
-%//%*             Viterbi School of Engineering,                           *%
-%//%*             Sonny Astani Dept. of Civil Engineering,                 *%
-%//%*             University of Southern california,                       *%
-%//%*             Los Angeles, California.                                 *%
-%//%************************************************************************%
+
 clear; close all; clc;
 Start = tic;
 
