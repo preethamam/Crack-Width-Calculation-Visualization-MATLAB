@@ -14,9 +14,9 @@ MATLAB <br />
 Visual Studio redistributable package x86/x64, 2012 or 2015, to run the `mex` files.
 
 # Open source programs and acknowledgements
-1. Nicholas Howe, Better Skeletonization, ([MATLAB File Exchnage](https://www.mathworks.com/matlabcentral/fileexchange/11123-better-skeletonization)).
-2. Yohai, Skeletonization using Voronoi, ([MATLAB File Exchnage](https://www.mathworks.com/matlabcentral/fileexchange/27543-skeletonization-using-voronoi)).
-3. Dirk-Jan Kroon, Accurate Fast Marching, ([MATLAB File Exchnage](https://www.mathworks.com/matlabcentral/fileexchange/24531-accurate-fast-marching)).
+1. Nicholas Howe, Better Skeletonization, ([MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/11123-better-skeletonization)).
+2. Yohai, Skeletonization using Voronoi, ([MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/27543-skeletonization-using-voronoi)).
+3. Dirk-Jan Kroon, Accurate Fast Marching, ([MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/24531-accurate-fast-marching)).
 
 # Citation
 Crack width calulation and comprehensive visualization code is available to the public. If you use this code in your research, please use the following BibTeX entry to cite:
