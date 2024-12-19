@@ -3,10 +3,10 @@
 ---------------------------------------------------------------------------
 Crack thickness         Value
 ---------------------------------
-maximum:              79.6667
-minimum:              4.3333
-average:              15.9941
-standard deviation:   7.4776
-RMS:                  17.6544
+maximum:              41.0000
+minimum:              2.0000
+average:              15.3326
+standard deviation:   5.3919
+RMS:                  16.2520
 ---------------------------------
-Crack length          1238.0000
+Crack length          890.0000
