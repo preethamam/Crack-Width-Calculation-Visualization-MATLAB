@@ -91,7 +91,7 @@ for m = 1:length(bresenham_cell)
 end
 
 
-switch BWWF_crackWidthLine_background
+switch crackWidthLineBackground
     case 'black'
         % Black background with black crack width region
         figure;

@@ -18,7 +18,7 @@ movWindowSize = 3; % Moving window size
 movWindowType = 'mean'; % 'mean': Moving mean | 'median': moving median
 skelOrientBlockSize = 5; % Skeleton orientation block size
 fileName2write = 'ZZZ_crackStatistics.txt'; % File to write output
-BWWF_crackWidthLine_background = 'white'; % Crack background % 'white' | 'black'
+crackWidthLineBackground = 'white'; % Crack background % 'white' | 'black'
 crackIndex = 50; % Single crack pixel index to display
 crackLineMovie = 0; % Show crack lines movie
 
