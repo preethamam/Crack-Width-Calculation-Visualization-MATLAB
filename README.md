@@ -11,7 +11,7 @@ Calculates the crack width based on the ellipse major axis orientation and Bresa
 
 # Requirements
 MATLAB <br />
-Visual Studio redistributable Package x86/x64, 2012 or 2015, to run the `mex` files.
+Visual Studio redistributable package x86/x64, 2012 or 2015, to run the `mex` files.
 
 # Citation
 Crack width calulation and comprehensive visualization code is available to the public. If you use this code in your research, please use the following BibTeX entry to cite:
