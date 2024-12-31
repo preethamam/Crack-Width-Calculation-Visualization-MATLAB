@@ -7,10 +7,10 @@ Calculates the crack width based on the ellipse major axis orientation and Bresa
 ## Example: Crack width visualization
 | Image type | Image sample |
 | ------------- | ------------- |
-| Crack | ![](assets/crack.png) | 
-| Distance map |![](assets/thumbnail_01.png) |
-| Crack width | ![](assets/thumbnail_02.png) |
-| Crack closeup | ![](assets/thumbnail_03.png) |
+| Crack | ![](assets/crack.png) {:height="400px" width="564px"} | 
+| Distance map |![](assets/thumbnail_01.png) {:height="400px" width="564px"} |
+| Crack width | ![](assets/thumbnail_02.png) {:height="400px" width="564px"} |
+| Crack closeup | ![](assets/thumbnail_03.png) {:height="400px" width="564px"} |
 
 # Requirements
 MATLAB <br />
