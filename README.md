@@ -5,9 +5,12 @@ Calculates the crack width based on the ellipse major axis orientation and Bresa
 
 # Quick Pipeline Visualization
 ## Example: Crack width visualization
-| Crack image | Distance map | Crack width |
-| ------------- | ------------- | ------------- |
-| ![](assets/crack.png) | ![](assets/thumbnail_01.png) | ![](assets/thumbnail_02.png) |
+| Image type | Image sample |
+| ------------- | ------------- |
+| Crack | ![](assets/crack.png) | 
+| Distance map |![](assets/thumbnail_01.png) |
+| Crack width | ![](assets/thumbnail_02.png) |
+| Crack closeup | ![](assets/thumbnail_03.png) |
 
 # Requirements
 MATLAB <br />
