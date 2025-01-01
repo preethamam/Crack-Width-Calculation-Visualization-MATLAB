@@ -78,6 +78,7 @@ title ('Crack normals visualization');
 f2h = findobj(gcf,'type','axes');
 linkaxes([f1h,f2h],'xy')
 
+
 %%
 %--------------------------------------------------------------------------
 % Plot the crack width factor
@@ -133,7 +134,6 @@ switch crackWidthLineBackground
         title ('Crack width variation visualization');
 end
 
-
 %%
 %--------------------------------------------------------------------------
 % Plot the crack width factor center line
@@ -182,6 +182,19 @@ crackWidthStrand = imoverlay(crackCL, singlecrackWidth,[0 0 1]);
 figure,
 imshow(crackWidthStrand);
 title ('Rasterization visualization of a single crack width');
+
+%--------------------------------------------------------------------------
+% Plot the crack boundaries
+boundaries = bwboundaries(binaryCrack);
+
+figure;
+imshow(binaryCrack)
+hold on
+for k=1:length(boundaries)
+   b = boundaries{k};
+   plot(b(:,2),b(:,1),"g",LineWidth=1);
+end
+hold off
 
 %--------------------------------------------------------------------------
 % Plot the crack lines movie
