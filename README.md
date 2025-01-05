@@ -8,7 +8,6 @@ Calculates the crack width based on the ellipse major axis orientation and Bresa
 | Crack |  Distance map |
 | ------------- | ------------- |
 | ![](assets/crack.png) | ![](assets/thumbnail_01.png) |
-| ------------- | ------------- |
 | Crack width   | Crack closeup |
 | ------------- | ------------- |
 | ![](assets/thumbnail_02.png) | ![](assets/thumbnail_03.png) |
