@@ -195,6 +195,7 @@ for k=1:length(boundaries)
    plot(b(:,2),b(:,1),"g",LineWidth=1);
 end
 hold off
+title ('Crack boundaries');
 
 %--------------------------------------------------------------------------
 % Plot the crack lines movie

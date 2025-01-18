@@ -34,6 +34,9 @@ thinPruneThresh = 0.1;
 %% Image I/O
 binaryCrack = imread(image);
 
+%% Folders I/O
+addpath('crackprops', 'skeleton')
+
 %% Image smoothing and skeletonizing/thining
 switch boundary_smooth 
     case 1
